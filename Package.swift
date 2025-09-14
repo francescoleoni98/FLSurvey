@@ -18,13 +18,15 @@ let package = Package(
 			targets: ["FLSurvey"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/francescoleoni98/FLNavigation.git", .upToNextMajor(from: "1.0.0"))
+		.package(url: "https://github.com/francescoleoni98/FLNavigation.git", .upToNextMajor(from: "1.0.0")),
+		.package(url: "https://github.com/francescoleoni98/FLShared.git", .upToNextMajor(from: "1.0.0"))
 	],
 	targets: [
 		.target(
 			name: "FLSurvey",
 			dependencies: [
-				.product(name: "FLNavigation", package: "FLNavigation")
+				.product(name: "FLNavigation", package: "FLNavigation"),
+				.product(name: "FLShared", package: "FLShared")
 			]
 		),
 		.testTarget(

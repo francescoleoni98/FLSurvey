@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "flnavigation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/francescoleoni98/FLNavigation.git",
+      "state" : {
+        "revision" : "d67d027fb09632e6c933f5b03520e39e54bf84de",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "flshared",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/francescoleoni98/FLShared.git",
+      "state" : {
+        "revision" : "685fab21f458fb15d468cf0b8a99f84a417479c8",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
